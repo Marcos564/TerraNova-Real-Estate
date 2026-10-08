@@ -1,0 +1,29 @@
+# Source video (the site uses the frames extracted into frames/)
+video.mp4
+
+# Claude Code local files
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Dependencies and builds
+node_modules/
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
